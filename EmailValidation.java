@@ -11,7 +11,7 @@ public class EmailValidation {
 		      Scanner sc = new Scanner(System.in);
 		      System.out.println("Enter your Email: ");
 		      String email = sc.next();
-		      String regex = "^[^.].+$";
+		      String regex = "^[^.].+@bridgelabz+$";
 		      Pattern pattern = Pattern.compile(regex);
 		      //Matching the given phone number with regular expression
 		      
